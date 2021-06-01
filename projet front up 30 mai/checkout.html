@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Kodawari Ramen </title>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style-order.css">
+    </head>
+    <body>
+        <header>
+            <section class="header">
+                <div class="navbar">
+                    <div class="gauche">
+                        <h2 class="accueil"><a href="index.html" >ACCUEIL </a></h2>
+                        <h2 class="contact"><a href="contact.html"> CONTACT </a></h2>
+                    </div>
+                    <div class="img">
+                        <a href="index.html" class="logo"><img src="projet_blanc/Logo_kodawari.svg" alt="logo_ramen" class="logo"></a>
+                        <h1> KODAWARI RAMEN </h1>
+                    </div>
+                    <div class="droite">
+                        <a href="yokocho-carte.html"><h2 class="yokocho"> KODAWARI YOKOCHŌ</h2></a>
+                        <a href="#"><h2 class="tsukiji"> KODAWARI TSUKIJI</h2></a>
+                    </div>
+                </div>
+                </section>    
+        </header>
+        <main>
+            <h2> Informations personnelles </h2>
+            <div class="container">
+                <form class="js"> 
+                    <div class="information address">
+                        <h3> Adresse de livraison </h3>
+                        <label for="nom"> Nom complet </label> <br>
+                        <input type="text" class ="nom" name="nomComplet" placeholder="Julien Soleil"><br>
+                        <label for="email"> Email </label> <br>
+                        <input type="text" class ="email" name="email" placeholder="juslien@example.com"><br>
+                        <label for="adresse"> Address</label> <br>
+                        <input type="text" class="adresse" name="address" placeholder="1 rue du soleil"><br>
+                        <label for="ville"> Ville </label><br>
+                        <input type="text" class="ville" name="Ville" placeholder="Héliopolis"><br>
+
+                        <div class="container petit">
+                            <div class="information pays">
+                                <label for="pays"> Pays </label>
+                                <input type="text" class="pays" name="pays" placeholder="Sun Land">
+                        </div>
+                        <div class="information zip">
+                            <label for="zip"> Code Postal </label>
+                            <input type="text" class="zip" name="zip" placeholder="69620">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="information paiement">
+                        <h3> Mode de paiement </h3>
+                        <label for="nom-carte">Nom sur la carte </label>
+                        <input type="text" class="nom-carte" name="nomCarte" placeholder=" Julien Soleil ">
+                        <label for="numero-carte"> Numéro de la carte </label>
+                        <input type="text" class="numero-carte" name="numeroCarte" placeholder="xxxx-xxxx-xxxx-xxxx">
+                        <label for="exp-mois"> Mois </label>
+                        <input type="text" class="exp-mois" name="expMois" placeholder="Novembre">
+                        <div class="container petit">
+                        <div class="information an">
+                            <label for="exp-year"> Année </label>
+                            <input type="text" class="exp-year" name="expyear" placeholder="2021">
+                        </div>
+                        <div class="information cvv">
+                            <label for="cvv">CVV</label>
+                            <input type="text" class="cvv" name="cvv" placeholder="662">
+                        </div>
+                        </div>
+                    </div><br>
+                    <input type="submit" value="Confirmer et payez" class="btn">
+                </form> 
+            </div>
+        </main>
+    </body>
+    <script src="js/main.js"></script>
+</html>

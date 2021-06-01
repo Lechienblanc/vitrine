@@ -1,0 +1,27 @@
+[
+    {
+      "name": "TAKUAN FUMÉ",
+      "description" : "Daikon mariné",
+      "prix": "3,00€",
+      "img":"https://www.bakespace.com/images/large/d6583ae2080b6aa7ce34375c4cb77f53.jpeg"
+    },
+    {
+      "name": "EDAMAME",
+      "description" : "Haricots japonais à la fleur de sel",
+      "prix": "3,50€",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/e/e7/Edamame_by_Zesmerelda_in_Chicago.jpg"
+      
+    },
+    {
+      "name": "SALADE D'ALGUES",
+      "description" : "Salade d'algues au sésame",
+      "prix": "3€",
+      "img":"https://images.japancentre.com/recipes/pics/1113/main/1113-seaweed-salad.jpg?1469573475"
+      },
+      {
+        "name": "GYÔZA KODAWARI",
+        "description" : "Farce de daurade, porc, sauce piquante",
+        "prix": "7€",
+        "img":"https://www.justonecookbook.com/wp-content/uploads/2020/04/Gyoza-3112-I.jpg"
+        }
+]
